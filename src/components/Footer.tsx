@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { categories } from "../../../src/data/categories";
+import { categories } from "../data/categories";
 
 export default function Footer() {
   return (

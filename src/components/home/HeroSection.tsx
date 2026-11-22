@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { getBookById, heroBookId, heroSecondBookId } from "../../../../src/data/books";
-import { useWishlistStore } from "../../../../src/store/wishlistStore";
+import { getBookById, heroBookId, heroSecondBookId } from "../../data/books";
+import { useWishlistStore } from "../../store/wishlistStore";
 
 // Hairnic hero (headline + two buttons + two bottles) -> featured book with two covers.
 export default function HeroSection() {

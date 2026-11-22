@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import { useCartSummary } from "../../../src/hooks/useCartSummary";
+import { useCartSummary } from "../hooks/useCartSummary";
 import { useScrolled } from "../hooks/useScrolled";
-import { useWishlistStore } from "../../../src/store/wishlistStore";
+import { useWishlistStore } from "../store/wishlistStore";
 
 function itemsLabel(count: number): string {
   return `${count} ${count === 1 ? "item" : "items"}`;
