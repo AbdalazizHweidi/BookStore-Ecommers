@@ -6,10 +6,6 @@ The layout and styling are adapted from the free **Hairnic** HTML template by HT
 
 Everything runs in the browser. There is no backend, login or real payment.
 
-## Teammates
-
-- Nour Mansour | Abedelaziz Hweidi | Jenin Kiblawi
-
 ## Features
 
 - **Home**: hero with a featured book, category tiles, about block, weekly deal with countdown, "Why readers love this book", how ordering works, featured books.
