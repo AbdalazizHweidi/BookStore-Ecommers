@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+<rect width="600" height="900" fill="#B8662B"/>
+<line x1="-360" y1="0" x2="-60" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="-300" y1="0" x2="0" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="-240" y1="0" x2="60" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="-180" y1="0" x2="120" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="-120" y1="0" x2="180" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="-60" y1="0" x2="240" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="0" y1="0" x2="300" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="60" y1="0" x2="360" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="120" y1="0" x2="420" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="180" y1="0" x2="480" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="240" y1="0" x2="540" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="300" y1="0" x2="600" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="360" y1="0" x2="660" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="420" y1="0" x2="720" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="480" y1="0" x2="780" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="540" y1="0" x2="840" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="600" y1="0" x2="900" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="660" y1="0" x2="960" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="720" y1="0" x2="1020" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<line x1="780" y1="0" x2="1080" y2="300" stroke="#F8DDB5" stroke-width="22" opacity=".45"/>
+<rect x="26" y="26" width="548" height="848" fill="none" stroke="#F8DDB5" stroke-width="3" opacity=".7"/>
+<text x="300" y="424" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="76" fill="#FFF8EC">The Bread</text><text x="300" y="511" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="76" fill="#FFF8EC">Book</text>
+<text x="300" y="602" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="28" fill="#FFF8EC" opacity=".9">Flour, Water, Patience</text>
+<line x1="250" y1="658" x2="350" y2="658" stroke="#F8DDB5" stroke-width="4"/>
+<text x="300" y="830" text-anchor="middle" font-family="Georgia, serif" font-size="30" letter-spacing="4" fill="#FFF8EC">MARCO BELLANDI</text>
+</svg>

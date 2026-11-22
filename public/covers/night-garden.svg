@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+<rect width="600" height="900" fill="#264653"/>
+<circle cx="237" cy="705" r="2" fill="#E9C46A" opacity="0.7"/>
+<circle cx="88" cy="160" r="3.5" fill="#E9C46A" opacity="0.5"/>
+<circle cx="544" cy="205" r="3.5" fill="#E9C46A" opacity="0.5"/>
+<circle cx="448" cy="764" r="2" fill="#E9C46A" opacity="0.95"/>
+<circle cx="59" cy="712" r="2" fill="#E9C46A" opacity="0.5"/>
+<circle cx="162" cy="251" r="5" fill="#E9C46A" opacity="0.7"/>
+<circle cx="428" cy="403" r="2" fill="#E9C46A" opacity="0.5"/>
+<circle cx="61" cy="784" r="2.5" fill="#E9C46A" opacity="0.95"/>
+<circle cx="356" cy="712" r="3.5" fill="#E9C46A" opacity="0.7"/>
+<circle cx="235" cy="87" r="2.5" fill="#E9C46A" opacity="0.5"/>
+<circle cx="90" cy="131" r="1.5" fill="#E9C46A" opacity="0.5"/>
+<circle cx="75" cy="78" r="3.5" fill="#E9C46A" opacity="0.5"/>
+<circle cx="408" cy="640" r="1.5" fill="#E9C46A" opacity="0.7"/>
+<circle cx="136" cy="447" r="1.5" fill="#E9C46A" opacity="0.95"/>
+<circle cx="128" cy="721" r="2" fill="#E9C46A" opacity="0.5"/>
+<circle cx="166" cy="725" r="2.5" fill="#E9C46A" opacity="0.7"/>
+<circle cx="429" cy="758" r="1.5" fill="#E9C46A" opacity="0.5"/>
+<circle cx="517" cy="64" r="5" fill="#E9C46A" opacity="0.5"/>
+<circle cx="64" cy="741" r="1.5" fill="#E9C46A" opacity="0.7"/>
+<circle cx="328" cy="202" r="1.5" fill="#E9C46A" opacity="0.5"/>
+<circle cx="63" cy="51" r="3.5" fill="#E9C46A" opacity="0.95"/>
+<circle cx="53" cy="854" r="2.5" fill="#E9C46A" opacity="0.7"/>
+<circle cx="59" cy="133" r="1.5" fill="#E9C46A" opacity="0.5"/>
+<circle cx="480" cy="273" r="2.5" fill="#E9C46A" opacity="0.5"/>
+<circle cx="178" cy="640" r="5" fill="#E9C46A" opacity="0.7"/>
+<circle cx="353" cy="746" r="1.5" fill="#E9C46A" opacity="0.95"/>
+<circle cx="97" cy="779" r="2" fill="#E9C46A" opacity="0.95"/>
+<circle cx="75" cy="54" r="2" fill="#E9C46A" opacity="0.7"/>
+<circle cx="541" cy="275" r="1.5" fill="#E9C46A" opacity="0.95"/>
+<circle cx="132" cy="136" r="1.5" fill="#E9C46A" opacity="0.5"/>
+<circle cx="246" cy="805" r="1.5" fill="#E9C46A" opacity="0.5"/>
+<circle cx="167" cy="68" r="5" fill="#E9C46A" opacity="0.95"/>
+<circle cx="199" cy="843" r="2" fill="#E9C46A" opacity="0.95"/>
+<circle cx="86" cy="84" r="3.5" fill="#E9C46A" opacity="0.7"/>
+<circle cx="266" cy="90" r="5" fill="#E9C46A" opacity="0.5"/>
+<circle cx="341" cy="297" r="3.5" fill="#E9C46A" opacity="0.5"/>
+<circle cx="566" cy="478" r="5" fill="#E9C46A" opacity="0.95"/>
+<circle cx="311" cy="693" r="2.5" fill="#E9C46A" opacity="0.95"/>
+<circle cx="514" cy="837" r="1.5" fill="#E9C46A" opacity="0.7"/>
+<circle cx="444" cy="88" r="1.5" fill="#E9C46A" opacity="0.95"/>
+<circle cx="345" cy="220" r="5" fill="#E9C46A" opacity="0.7"/>
+<circle cx="267" cy="255" r="5" fill="#E9C46A" opacity="0.7"/>
+<circle cx="546" cy="761" r="3.5" fill="#E9C46A" opacity="0.95"/>
+<rect x="26" y="26" width="548" height="848" fill="none" stroke="#E9C46A" stroke-width="3" opacity=".7"/>
+<text x="300" y="433" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="49" fill="#F6F1E1">The Night Garden</text><text x="300" y="489" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="49" fill="#F6F1E1">Counting Book</text>
+
+<line x1="250" y1="562" x2="350" y2="562" stroke="#E9C46A" stroke-width="4"/>
+<text x="300" y="830" text-anchor="middle" font-family="Georgia, serif" font-size="30" letter-spacing="4" fill="#F6F1E1">OTTILIE BRAMWELL</text>
+</svg>
