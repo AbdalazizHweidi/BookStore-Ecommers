@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { books } from "../../../../src/data/books";
-import { categories } from "../../../../src/data/categories";
-import SectionHeading from "../../../../src/components/SectionHeading";
+import { books } from "../../data/books";
+import { categories } from "../../data/categories";
+import SectionHeading from "../SectionHeading";
 
 // Hairnic's three green feature boxes -> one green tile per book category.
 export default function CategoryTiles() {
