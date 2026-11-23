@@ -6,7 +6,7 @@ export default function AboutSection() {
   const shelfBooks = aboutShelfBookIds.map((id) => getBookById(id)!);
 
   return (
-    <div className="container-fluid py-5">
+    <section className="container-fluid py-5">
       <div className="container">
         <div className="row g-5 align-items-center">
           <div className="col-lg-6">
@@ -42,6 +42,6 @@ export default function AboutSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -23,7 +23,7 @@ export default function WhyReadersLoveSection() {
   const rightReasons = heroBookReasons.slice(3, 6);
 
   return (
-    <div className="container-fluid py-5">
+    <section className="container-fluid py-5">
       <div className="container">
         <SectionHeading
           lead="Why readers love"
@@ -57,6 +57,6 @@ export default function WhyReadersLoveSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

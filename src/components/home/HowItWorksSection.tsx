@@ -21,7 +21,7 @@ const steps = [
 // Hairnic's three "How to use" steps on a green band -> how ordering works.
 export default function HowItWorksSection() {
   return (
-    <div className="container-fluid how-to-use bg-primary my-5 py-5">
+    <section className="container-fluid how-to-use bg-primary my-5 py-5">
       <div className="container text-white py-5">
         <SectionHeading lead="How it works:" main="From the shelf" trail="to your door" onBand />
         <div className="row g-5">
@@ -37,6 +37,6 @@ export default function HowItWorksSection() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

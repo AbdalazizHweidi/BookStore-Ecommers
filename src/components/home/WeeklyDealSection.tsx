@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { getBookById, weeklyDealBookId } from "../../data/books";
 import { getEndOfWeek, useCountdown } from "../../hooks/useCountdown";
 import { useCartStore } from "../../store/cartStore";
@@ -12,8 +12,14 @@ function twoDigits(value: number): string {
 export default function WeeklyDealSection() {
   const book = getBookById(weeklyDealBookId)!;
   const addToCart = useCartStore((state) => state.addToCart);
-  const [endOfWeek] = useState(() => getEndOfWeek());
+  const [endOfWeek, setEndOfWeek] = useState(() => getEndOfWeek());
   const timeLeft = useCountdown(endOfWeek);
+
+  // When the current week ends, start counting down to the end of the next one.
+  useEffect(() => {
+    const timerId = setTimeout(() => setEndOfWeek(getEndOfWeek()), Math.max(0, endOfWeek.getTime() - Date.now() + 1));
+    return () => clearTimeout(timerId);
+  }, [endOfWeek]);
 
   const countdownParts = [
     { value: timeLeft.days, label: "Days" },
@@ -23,7 +29,7 @@ export default function WeeklyDealSection() {
   ];
 
   return (
-    <div className="container-fluid deal bg-primary my-5 py-5">
+    <section className="container-fluid deal bg-primary my-5 py-5">
       <div className="container py-5">
         <div className="row g-5 align-items-center">
           <div className="col-lg-6 text-center">
@@ -74,6 +80,6 @@ export default function WeeklyDealSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -6,7 +6,7 @@ import SectionHeading from "../SectionHeading";
 // the assignment has no backend to send emails.)
 export default function ClosingBand() {
   return (
-    <div className="container-fluid how-to-use closing-band bg-primary my-5 py-5">
+    <section className="container-fluid how-to-use closing-band bg-primary my-5 py-5">
       <div className="container py-5">
         <SectionHeading
           lead="Your next favourite book"
@@ -20,6 +20,6 @@ export default function ClosingBand() {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
