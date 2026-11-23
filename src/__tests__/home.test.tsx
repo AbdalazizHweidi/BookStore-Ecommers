@@ -1,6 +1,7 @@
 import { act, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { beforeEach, describe, expect, it, vi } from "vitest";
+import App from "../App";
 import WeeklyDealSection from "../components/home/WeeklyDealSection";
 import HomePage from "../pages/HomePage";
 import { useCartStore } from "../store/cartStore";
@@ -10,15 +11,31 @@ import { renderWithRouter, resetStores } from "../test/testUtils";
 describe("Home page", () => {
   beforeEach(resetStores);
 
+  it("uses the same cart and wishlist as the navigation", async () => {
+    const user = userEvent.setup();
+    renderWithRouter(<App />);
+
+    expect(screen.getByRole("heading", { name: /A small shop for big reading lives/i })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Deal of the Week" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: /How it works:/i })).toBeInTheDocument();
+
+    await user.click(screen.getByRole("button", { name: "Save to Wishlist" }));
+    await user.click(screen.getByRole("button", { name: "Add The Last Lighthouse Keeper to wishlist" }));
+    expect(screen.getByRole("link", { name: "Wishlist, 2 items" })).toBeInTheDocument();
+
+    await user.click(screen.getByRole("button", { name: /Add to Cart\s*: Crown of Ash and Thistle/ }));
+    expect(screen.getByRole("link", { name: "Cart, 1 item" })).toBeInTheDocument();
+  });
+
   it("renders the home sections and adds the weekly deal to the cart", async () => {
     const user = userEvent.setup();
     renderWithRouter(<HomePage />);
 
-    expect(screen.getByRole("heading", { name: /a little about leaflet/i })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: /a small shop for big reading lives/i })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: /why readers love/i })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: /how it works/i })).toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: /ready for your next read/i })).toBeInTheDocument();
-    await user.click(screen.getByRole("button", { name: "Add to Cart" }));
+    expect(screen.getByRole("heading", { name: /your next favourite book/i })).toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: /Add to Cart\s*: Crown of Ash and Thistle/ }));
     expect(useCartStore.getState().items).toEqual([{ bookId: "ash-thistle", quantity: 1 }]);
   });
 
@@ -39,7 +56,7 @@ describe("Home page", () => {
       renderWithRouter(<WeeklyDealSection />);
       act(() => vi.advanceTimersByTime(2000));
       act(() => vi.advanceTimersByTime(1000));
-      expect(screen.getByText(/Ends in 6d/)).toBeInTheDocument();
+      expect(screen.getByRole("timer")).toHaveTextContent(/^06Days/);
     } finally {
       vi.useRealTimers();
     }

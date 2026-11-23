@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import { aboutShelfBookIds, getBookById } from "../../data/books";
+import { aboutShelfBookIds, books, getBookById } from "../../data/books";
 
+// Hairnic's "image left, text right" about block -> a fan of covers and the story of the shop.
 export default function AboutSection() {
-  const books = aboutShelfBookIds.map((id) => getBookById(id)!);
+  const shelfBooks = aboutShelfBookIds.map((id) => getBookById(id)!);
 
   return (
     <section className="container-fluid py-5">
@@ -10,16 +11,34 @@ export default function AboutSection() {
         <div className="row g-5 align-items-center">
           <div className="col-lg-6">
             <div className="cover-fan">
-              {books.map((book, index) => (
-                <img key={book.id} className={`book-cover cover-fan__item cover-fan__item--${index + 1}`}
-                  src={book.cover} alt={`${book.title} by ${book.author}, book cover`} width={600} height={900} loading="lazy" />
+              {shelfBooks.map((book, index) => (
+                <img
+                  key={book.id}
+                  className={`book-cover cover-fan__item cover-fan__item--${index + 1}`}
+                  src={book.cover}
+                  alt={`${book.title} by ${book.author}, book cover`}
+                  width={600}
+                  height={900}
+                  loading="lazy"
+                />
               ))}
             </div>
           </div>
           <div className="col-lg-6">
-            <h2 className="text-primary">A little about Leaflet</h2>
-            <p>We bring together stories for curious readers, from mysteries and fantasy to books for the whole family.</p>
-            <Link to="/books" className="btn btn-primary py-2 px-4">Explore our shelves</Link>
+            <h2 className="h1 text-primary mb-4">
+              A small shop for <span className="fw-light text-dark">big reading lives</span>
+            </h2>
+            <p className="mb-4">
+              Leaflet started as one shelf in a corner café. Today we stock {books.length} carefully chosen titles
+              across six categories, and every one of them has been read and recommended by someone on our team.
+            </p>
+            <p className="mb-4">
+              We would rather help you find the right book than the most popular one. Browse a shelf, save the books
+              you are curious about, and order when you are ready.
+            </p>
+            <Link className="btn btn-primary py-2 px-4" to="/books">
+              Browse All Books
+            </Link>
           </div>
         </div>
       </div>
