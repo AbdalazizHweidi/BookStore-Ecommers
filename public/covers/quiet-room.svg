@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+<rect width="600" height="900" fill="#3B2F3F"/>
+<path d="M100 300 V 100 A 200 200 0 0 1 500 100 V 300" fill="none" stroke="#C9A66B" stroke-width="5" opacity="0.90"/>
+<path d="M150 300 V 150 A 150 150 0 0 1 450 150 V 300" fill="none" stroke="#C9A66B" stroke-width="5" opacity="0.70"/>
+<path d="M200 300 V 200 A 100 100 0 0 1 400 200 V 300" fill="none" stroke="#C9A66B" stroke-width="5" opacity="0.50"/>
+<rect x="26" y="26" width="548" height="848" fill="none" stroke="#C9A66B" stroke-width="3" opacity=".7"/>
+<text x="300" y="385" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="71" fill="#F3EBDD">The Quiet</text><text x="300" y="466" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="71" fill="#F3EBDD">Room at</text><text x="300" y="548" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="71" fill="#F3EBDD">Hollis Hall</text>
+
+<line x1="250" y1="637" x2="350" y2="637" stroke="#C9A66B" stroke-width="4"/>
+<text x="300" y="830" text-anchor="middle" font-family="Georgia, serif" font-size="30" letter-spacing="4" fill="#F3EBDD">PRIYA VENKATARAMAN</text>
+</svg>

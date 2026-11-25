@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+<rect width="600" height="900" fill="#4F6372"/>
+<path d="M50 26 L84 60 L50 94 L16 60 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M150 26 L184 60 L150 94 L116 60 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M250 26 L284 60 L250 94 L216 60 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M350 26 L384 60 L350 94 L316 60 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M450 26 L484 60 L450 94 L416 60 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M550 26 L584 60 L550 94 L516 60 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M50 106 L84 140 L50 174 L16 140 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M150 106 L184 140 L150 174 L116 140 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M250 106 L284 140 L250 174 L216 140 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M350 106 L384 140 L350 174 L316 140 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M450 106 L484 140 L450 174 L416 140 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M550 106 L584 140 L550 174 L516 140 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M50 186 L84 220 L50 254 L16 220 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M150 186 L184 220 L150 254 L116 220 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M250 186 L284 220 L250 254 L216 220 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M350 186 L384 220 L350 254 L316 220 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M450 186 L484 220 L450 254 L416 220 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M550 186 L584 220 L550 254 L516 220 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M50 266 L84 300 L50 334 L16 300 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M150 266 L184 300 L150 334 L116 300 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M250 266 L284 300 L250 334 L216 300 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M350 266 L384 300 L350 334 L316 300 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M450 266 L484 300 L450 334 L416 300 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<path d="M550 266 L584 300 L550 334 L516 300 Z" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".6"/>
+<rect x="26" y="26" width="548" height="848" fill="none" stroke="#F2EFE6" stroke-width="3" opacity=".7"/>
+<text x="300" y="385" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="44" fill="#F7F4EC">The Cartographer's</text><text x="300" y="435" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="44" fill="#F7F4EC">Daughter</text><text x="300" y="485" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="44" fill="#F7F4EC">and the</text><text x="300" y="535" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="44" fill="#F7F4EC">Winter Archive</text>
+
+<line x1="250" y1="603" x2="350" y2="603" stroke="#F2EFE6" stroke-width="4"/>
+<text x="300" y="830" text-anchor="middle" font-family="Georgia, serif" font-size="30" letter-spacing="4" fill="#F7F4EC">TOBIAS LINDQVIST</text>
+</svg>

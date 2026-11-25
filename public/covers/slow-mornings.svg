@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+<rect width="600" height="900" fill="#F6E7C8"/>
+<circle cx="300" cy="200" r="100" fill="#E0A458"/>
+<line x1="440" y1="200" x2="485" y2="200" stroke="#E0A458" stroke-width="8" stroke-linecap="round"/>
+<line x1="421" y1="270" x2="460" y2="292" stroke="#E0A458" stroke-width="8" stroke-linecap="round"/>
+<line x1="370" y1="321" x2="392" y2="360" stroke="#E0A458" stroke-width="8" stroke-linecap="round"/>
+<line x1="300" y1="340" x2="300" y2="385" stroke="#E0A458" stroke-width="8" stroke-linecap="round"/>
+<line x1="230" y1="321" x2="208" y2="360" stroke="#E0A458" stroke-width="8" stroke-linecap="round"/>
+<line x1="179" y1="270" x2="140" y2="292" stroke="#E0A458" stroke-width="8" stroke-linecap="round"/>
+<line x1="160" y1="200" x2="115" y2="200" stroke="#E0A458" stroke-width="8" stroke-linecap="round"/>
+<line x1="179" y1="130" x2="140" y2="108" stroke="#E0A458" stroke-width="8" stroke-linecap="round"/>
+<line x1="230" y1="79" x2="207" y2="40" stroke="#E0A458" stroke-width="8" stroke-linecap="round"/>
+<line x1="300" y1="60" x2="300" y2="15" stroke="#E0A458" stroke-width="8" stroke-linecap="round"/>
+<line x1="370" y1="79" x2="392" y2="40" stroke="#E0A458" stroke-width="8" stroke-linecap="round"/>
+<line x1="421" y1="130" x2="460" y2="107" stroke="#E0A458" stroke-width="8" stroke-linecap="round"/>
+<rect x="26" y="26" width="548" height="848" fill="none" stroke="#E0A458" stroke-width="3" opacity=".7"/>
+<text x="300" y="424" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="76" fill="#4A3A22">Slow</text><text x="300" y="511" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="76" fill="#4A3A22">Mornings</text>
+<text x="300" y="602" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="25" fill="#4A3A22" opacity=".9">a practical guide to reading more</text>
+<line x1="250" y1="658" x2="350" y2="658" stroke="#E0A458" stroke-width="4"/>
+<text x="300" y="830" text-anchor="middle" font-family="Georgia, serif" font-size="30" letter-spacing="4" fill="#4A3A22">HANNAH WHITCOMBE</text>
+</svg>

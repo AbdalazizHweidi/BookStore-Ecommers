@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+<rect width="600" height="900" fill="#1D5C63"/>
+<circle cx="300" cy="190" r="80" fill="#F4D58D" opacity=".9"/>
+<rect x="55" y="690" width="10" height="70" fill="#F4D58D" opacity=".7"/>
+<circle cx="60" cy="675" r="38" fill="#F4D58D" opacity=".55"/>
+<rect x="175" y="690" width="10" height="70" fill="#F4D58D" opacity=".7"/>
+<circle cx="180" cy="675" r="38" fill="#F4D58D" opacity=".55"/>
+<rect x="295" y="690" width="10" height="70" fill="#F4D58D" opacity=".7"/>
+<circle cx="300" cy="675" r="38" fill="#F4D58D" opacity=".55"/>
+<rect x="415" y="690" width="10" height="70" fill="#F4D58D" opacity=".7"/>
+<circle cx="420" cy="675" r="38" fill="#F4D58D" opacity=".55"/>
+<rect x="535" y="690" width="10" height="70" fill="#F4D58D" opacity=".7"/>
+<circle cx="540" cy="675" r="38" fill="#F4D58D" opacity=".55"/>
+<path d="M0 790 Q 150 760 300 790 T 600 790 V 900 H 0 Z" fill="#F4D58D" opacity=".25"/>
+<rect x="26" y="26" width="548" height="848" fill="none" stroke="#F4D58D" stroke-width="3" opacity=".7"/>
+<text x="300" y="424" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="76" fill="#FDF6E3">The Salt</text><text x="300" y="511" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="76" fill="#FDF6E3">Orchard</text>
+
+<line x1="250" y1="604" x2="350" y2="604" stroke="#F4D58D" stroke-width="4"/>
+<text x="300" y="830" text-anchor="middle" font-family="Georgia, serif" font-size="30" letter-spacing="4" fill="#FDF6E3">ELARA VOSS</text>
+</svg>

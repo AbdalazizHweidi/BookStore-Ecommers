@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+<rect width="600" height="900" fill="#2F4F3A"/>
+<circle cx="300" cy="190" r="95" fill="#E2D7A7"/><circle cx="335" cy="170" r="85" fill="#2F4F3A"/>
+<circle cx="84" cy="101" r="3" fill="#E2D7A7" opacity=".7"/>
+<circle cx="244" cy="241" r="3" fill="#E2D7A7" opacity=".7"/>
+<circle cx="395" cy="188" r="3" fill="#E2D7A7" opacity=".7"/>
+<circle cx="191" cy="173" r="3" fill="#E2D7A7" opacity=".7"/>
+<circle cx="150" cy="173" r="3" fill="#E2D7A7" opacity=".7"/>
+<circle cx="461" cy="207" r="3" fill="#E2D7A7" opacity=".7"/>
+<circle cx="314" cy="95" r="3" fill="#E2D7A7" opacity=".7"/>
+<circle cx="373" cy="199" r="3" fill="#E2D7A7" opacity=".7"/>
+<circle cx="63" cy="143" r="3" fill="#E2D7A7" opacity=".7"/>
+<circle cx="112" cy="143" r="3" fill="#E2D7A7" opacity=".7"/>
+<circle cx="156" cy="273" r="3" fill="#E2D7A7" opacity=".7"/>
+<circle cx="437" cy="77" r="3" fill="#E2D7A7" opacity=".7"/>
+<circle cx="140" cy="252" r="3" fill="#E2D7A7" opacity=".7"/>
+<circle cx="57" cy="90" r="3" fill="#E2D7A7" opacity=".7"/>
+<rect x="26" y="26" width="548" height="848" fill="none" stroke="#E2D7A7" stroke-width="3" opacity=".7"/>
+<text x="300" y="381" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="76" fill="#F4F1DF">The Moth</text><text x="300" y="467" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="76" fill="#F4F1DF">Queen's</text><text x="300" y="554" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="76" fill="#F4F1DF">Almanac</text>
+
+<line x1="250" y1="647" x2="350" y2="647" stroke="#E2D7A7" stroke-width="4"/>
+<text x="300" y="830" text-anchor="middle" font-family="Georgia, serif" font-size="30" letter-spacing="4" fill="#F4F1DF">SUNNIVA ASHBY</text>
+</svg>

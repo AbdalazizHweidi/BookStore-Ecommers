@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+<rect width="600" height="900" fill="#F2E9DC"/>
+<circle cx="430" cy="180" r="190" fill="none" stroke="#C0392B" stroke-width="10" opacity=".85"/>
+<circle cx="430" cy="180" r="140" fill="none" stroke="#C0392B" stroke-width="10" opacity=".85"/>
+<circle cx="430" cy="180" r="90" fill="none" stroke="#C0392B" stroke-width="10" opacity=".85"/>
+<circle cx="430" cy="180" r="40" fill="none" stroke="#C0392B" stroke-width="10" opacity=".85"/>
+<rect x="26" y="26" width="548" height="848" fill="none" stroke="#C0392B" stroke-width="3" opacity=".7"/>
+<text x="300" y="428" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="65" fill="#2B2B2B">A Study</text><text x="300" y="502" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="65" fill="#2B2B2B">in Wet Paint</text>
+
+<line x1="250" y1="587" x2="350" y2="587" stroke="#C0392B" stroke-width="4"/>
+<text x="300" y="830" text-anchor="middle" font-family="Georgia, serif" font-size="30" letter-spacing="4" fill="#2B2B2B">GWENDOLYN MARSH</text>
+</svg>

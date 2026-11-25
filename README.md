@@ -1,50 +1,63 @@
-# React + TypeScript + Vite
+# Leaflet Books
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive online bookstore built with **React + TypeScript** for the React E-Commerce group project.
+The layout and styling are adapted from the free **Hairnic** HTML template by HTML Codex
+(the credit link in the footer must stay, as the template license requires).
 
-Currently, two official plugins are available:
+Everything runs in the browser. There is no backend, login or real payment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Home**: hero with a featured book, category tiles, about block, weekly deal with countdown, "Why readers love this book", how ordering works, featured books.
+- **Books**: responsive grid; search by title or author; filter by category and price range; sort by price; "no results" message.
+- **Cart**: change quantities, remove a book, clear the cart, subtotal / shipping / total, empty message, continue shopping, proceed to checkout. Saved in `localStorage`.
+- **Wishlist**: add/remove books, no duplicates, add to cart, empty message. Saved in `localStorage`. No account needed.
+- **Checkout**: Zod-validated delivery form with errors next to each field, blocked when the cart is empty, order confirmation with a reference number and summary, cart cleared and wishlist kept.
+- Cart and wishlist counts in the header, mobile navigation, 404 page.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies
 
-- Configure the top-level `parserOptions` property like this:
+React 18, TypeScript, Vite, React Router, Zustand (state + localStorage), Zod (form validation), Vitest + React Testing Library (tests), Bootstrap CSS (from Hairnic).
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Run it
+
+You need Node.js 18 or newer.
+
+```bash
+npm install
+npm run dev      # open the address it prints, usually http://localhost:5173
+npm test         # run the automated tests once
+npm run build    # type-check and create a production build
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Folder structure
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
 ```
+public/covers/      placeholder book covers (SVG)
+src/
+  components/       Navbar, Footer, BookCard, PageHeader, FormField, OrderSummary ...
+    home/           one component per home page section
+  pages/            HomePage, BooksPage, CartPage, WishlistPage, CheckoutPage, NotFoundPage
+  data/             books.ts (sample books), categories.ts
+  store/            cartStore.ts, wishlistStore.ts (Zustand)
+  hooks/            useBookFilters, useCartSummary, useCheckoutForm, useCountdown, useScrolled
+  utils/            filterBooks, pricing, formatPrice, orderReference
+  schemas/          checkoutSchema.ts (Zod)
+  types/            Book and order types
+  styles/           bootstrap.min.css, template.css (from Hairnic), books.css (our changes)
+  __tests__/        automated tests
+```
+
+## Tests
+
+`npm test` runs: product filtering (required test 1), shopping cart (test 2), checkout validation (test 3),
+plus wishlist, quantity and order-calculation tests.
+
+## Team workflow
+
+`main` is protected: work happens on feature branches created from `dev`, merged by pull request after a teammate's review, and `dev` is merged into `main` once everything is tested.
+
+## Notes
+
+- All books and authors are fictional. Replace a cover by putting an image in `public/covers/` and changing its `cover` path in `src/data/books.ts`.
+- Shipping is a flat $4.99, free for orders of $35 or more. Maximum 10 copies of one book per order.
